@@ -1,0 +1,39 @@
+.card-header h2 {
+    text-align: center;
+}
+
+.card-body form button,
+.card-body input,
+.form-control {
+    margin: 1em 0;
+    padding: 12px;
+}
+
+.card-body input {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-control {
+    height: 2.5em;
+}
+
+.form-control p {
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (orientation: portrait) {
+    .card-body {
+        height: 80vh !important;
+        align-items: center;
+    }
+    form {
+        margin-top: 20vh;
+    }
+}
